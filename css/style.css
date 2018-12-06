@@ -530,5 +530,19 @@ hr{border-top:1px solid #fff;}
         height: 400px;
     }
 }
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px){
+    .map_content .myMap{
+        margin-left: 30px;
+        width: 290px;
+        height: 400px;
+    }
+}
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px){
+    .map_content .myMap{
+        margin-left: 30px;
+        width: 385px;
+        height: 400px;
+    }
+}
 
 
